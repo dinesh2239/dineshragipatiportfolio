@@ -25,9 +25,8 @@ const Contact = () => {
 
     setStatus("sending");
     try {
-      const projectId = import.meta.env.VITE_SUPABASE_PROJECT_ID;
       const res = await fetch(
-        `https://${projectId}.supabase.co/functions/v1/send-contact-email`,
+        `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-contact-email`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
