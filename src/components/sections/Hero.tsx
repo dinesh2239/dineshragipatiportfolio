@@ -6,8 +6,8 @@ const Hero = () => {
           <p className="text-label uppercase text-muted-foreground mb-6">
             Business Analyst (Aspiring)
           </p>
-          <h1 className="text-display text-foreground mb-8">
-            Ragipati<br />Dinesh Naidu
+          <h1 className="text-display text-foreground mb-8 whitespace-normal md:whitespace-nowrap">
+            Ragipati Dinesh Naidu
           </h1>
           <p className="text-h3 font-normal text-foreground mb-4 max-w-xl">
             Designing business-aligned analytical systems.
