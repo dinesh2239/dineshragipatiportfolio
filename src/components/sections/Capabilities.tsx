@@ -18,7 +18,7 @@ const Capabilities = () => {
     <section id="capabilities" className="section-spacing border-t border-border">
       <div className="container-swiss">
         <div className="mb-16">
-          <p className="text-label uppercase text-muted-foreground mb-3">04</p>
+          <p className="text-label uppercase text-muted-foreground mb-3">05</p>
           <h2 className="text-h2 text-foreground">Capabilities</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-12 md:gap-16">

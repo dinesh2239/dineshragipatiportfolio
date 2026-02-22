@@ -4,7 +4,7 @@ const Leadership = () => {
       <div className="container-swiss">
         <div className="grid md:grid-cols-12 gap-12 md:gap-16">
           <div className="md:col-span-4">
-            <p className="text-label uppercase text-muted-foreground mb-3">05</p>
+            <p className="text-label uppercase text-muted-foreground mb-3">06</p>
             <h2 className="text-h2 text-foreground">Leadership</h2>
           </div>
           <div className="md:col-span-7 md:col-start-6">
