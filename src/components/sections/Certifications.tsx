@@ -15,7 +15,7 @@ const Certifications = () => {
       <div className="container-swiss">
         <div className="grid md:grid-cols-12 gap-12 md:gap-16">
           <div className="md:col-span-4">
-            <p className="text-label uppercase text-muted-foreground mb-3">07</p>
+            <p className="text-label uppercase text-muted-foreground mb-3">08</p>
             <h2 className="text-h2 text-foreground">Certifications</h2>
           </div>
           <div className="md:col-span-7 md:col-start-6 space-y-6">
