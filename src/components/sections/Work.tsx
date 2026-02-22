@@ -89,12 +89,6 @@ const ProjectCard = ({ project }: { project: Project }) => {
         >
           View Case Study
         </a>
-        <a
-          href="#"
-          className="text-small text-muted-foreground hover:text-foreground transition-colors duration-200 border-b border-transparent hover:border-foreground pb-px self-center"
-        >
-          View Code
-        </a>
       </div>
     </div>
   );

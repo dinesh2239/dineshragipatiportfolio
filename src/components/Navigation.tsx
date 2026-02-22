@@ -4,9 +4,10 @@ const NAV_ITEMS = [
   { label: "About", href: "#about" },
   { label: "Approach", href: "#approach" },
   { label: "Work", href: "#work" },
+  { label: "AI Agents", href: "#ai-agents" },
   { label: "Capabilities", href: "#capabilities" },
-  { label: "Leadership", href: "#leadership" },
   { label: "Education", href: "#education" },
+  { label: "Certifications", href: "#certifications" },
   { label: "Contact", href: "#contact" },
 ];
 
