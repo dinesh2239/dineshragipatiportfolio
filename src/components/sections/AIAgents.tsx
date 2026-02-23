@@ -3,13 +3,13 @@ const AGENTS = [
     title: "Internship Opportunity Finder",
     description:
       "An AI agent that scans and curates relevant internship openings, matching candidates with opportunities based on skills, location, and preferences.",
-    url: "https://m365.cloud.microsoft.com/chat/?titleId=T_44a45302-18ab-c387-8c33-cf6b321dbf53&source=embedded-builder",
+    url: "https://m365.cloud.microsoft:443/chat/?titleId=T_44a45302-18ab-c387-8c33-cf6b321dbf53&source=embedded-builder",
   },
   {
     title: "IntelliStack",
     description:
       "An intelligent research assistant that aggregates, summarizes, and organizes information from multiple sources to accelerate decision-making.",
-    url: "https://m365.cloud.microsoft.com/chat/?titleId=T_41e98aee-4be3-eece-4213-8367e7558c93&source=embedded-builder",
+    url: "https://m365.cloud.microsoft:443/chat/?titleId=T_41e98aee-4be3-eece-4213-8367e7558c93&source=embedded-builder",
   },
 ];
 
