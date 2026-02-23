@@ -2,10 +2,10 @@ const Contact = () => {
   return (
     <section id="contact" className="section-spacing border-t border-border">
       <div className="container-swiss">
-        <div className="max-w-xl">
+        <div className="max-w-2xl">
           <p className="text-label uppercase text-muted-foreground mb-3">09</p>
           <h2 className="text-h2 text-foreground mb-6">Contact</h2>
-          <p className="text-body text-muted-foreground mb-12">
+          <p className="text-body text-muted-foreground mb-12 md:whitespace-nowrap">
             Open to Business Analyst roles and strategic analytical opportunities.
           </p>
           <div className="space-y-4">
