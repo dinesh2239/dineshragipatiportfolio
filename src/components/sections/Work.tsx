@@ -81,15 +81,6 @@ const ProjectCard = ({ project }: { project: Project }) => {
           )}
         </>
       )}
-
-      <div className="flex gap-4">
-        <a
-          href="#"
-          className="text-small font-medium text-foreground border border-foreground px-4 py-2 hover:bg-foreground hover:text-background transition-colors duration-200"
-        >
-          View Case Study
-        </a>
-      </div>
     </div>
   );
 };
