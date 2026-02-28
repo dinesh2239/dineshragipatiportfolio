@@ -7,8 +7,8 @@ interface Certification {
 const CERTIFICATIONS: Certification[] = [
   {
     title: "Microsoft Business Analytics Professional Certificate",
-    viewUrl: "#",
-    downloadUrl: "#",
+    viewUrl: "/Microsoft_Business_Analytics_Professional_Certificate.pdf",
+    downloadUrl: "/Microsoft_Business_Analytics_Professional_Certificate.pdf",
   },
 ];
 
