@@ -5,8 +5,11 @@ interface Certification {
 }
 
 const CERTIFICATIONS: Certification[] = [
-  { title: "Certification 1 (Coming Soon)" },
-  { title: "Certification 2 (Coming Soon)" },
+  {
+    title: "Microsoft Business Analytics Professional Certificate",
+    viewUrl: "#",
+    downloadUrl: "#",
+  },
 ];
 
 const Certifications = () => {
