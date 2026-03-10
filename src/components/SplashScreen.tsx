@@ -31,15 +31,9 @@ const SplashScreen = ({ onComplete }: SplashScreenProps) => {
           transition={{ duration: 0.5, ease: "easeInOut" }}
         >
           <div className="flex flex-col items-center gap-6">
-            <BlurFade delay={0.1} duration={0.6} yOffset={12}>
-              <p className="text-label uppercase tracking-[0.2em] text-muted-foreground">
-                Portfolio
-              </p>
-            </BlurFade>
-
             <BlurFade delay={0.3} duration={0.7} yOffset={16}>
               <h1 className="text-display text-foreground text-center">
-                RDN
+                Ragipati Dinesh Naidu
               </h1>
             </BlurFade>
 
