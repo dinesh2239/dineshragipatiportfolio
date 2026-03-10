@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
@@ -10,10 +11,14 @@ import Education from "@/components/sections/Education";
 import Certifications from "@/components/sections/Certifications";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/sections/Footer";
+import SplashScreen from "@/components/SplashScreen";
 
 const Index = () => {
+  const [showSplash, setShowSplash] = useState(true);
+
   return (
     <>
+      {showSplash && <SplashScreen onComplete={() => setShowSplash(false)} />}
       <Navigation />
       <main>
         <Hero />
