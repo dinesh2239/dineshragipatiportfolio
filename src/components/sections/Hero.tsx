@@ -1,3 +1,19 @@
+import { Mail, Linkedin } from "lucide-react";
+import { ShareButton } from "@/components/ui/share-button";
+
+const connectLinks = [
+  {
+    icon: Mail,
+    href: "mailto:dineshragipati99@gmail.com",
+    label: "Email",
+  },
+  {
+    icon: Linkedin,
+    href: "https://linkedin.com/in/dinesh-ragipati-32b3aa229",
+    label: "LinkedIn",
+  },
+];
+
 const Hero = () => {
   return (
     <section className="pt-32 pb-16 md:pt-44 md:pb-24">
@@ -20,6 +36,10 @@ const Hero = () => {
             </p>
           </div>
           <div className="flex items-center gap-6">
+            <ShareButton links={connectLinks}>
+              <Mail size={16} />
+              Connect
+            </ShareButton>
             <a
               href="#work"
               className="inline-flex items-center px-6 py-3 bg-foreground text-background text-small font-medium tracking-wide hover:bg-accent transition-colors duration-200"
