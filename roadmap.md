@@ -1,0 +1,4 @@
+- [ ] Rebuild navigation and page structure
+- [ ] Apply updated content and visual system
+- [ ] Add responsive motion and contact behavior
+- [ ] Update metadata and verify desktop/mobile
